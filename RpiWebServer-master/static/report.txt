@@ -1,0 +1,8 @@
+Nmap scan report for 192.168.16.1
+Host is up (0.040s latency).
+MAC Address: B8:27:EB:69:46:61 (Raspberry Pi Foundation)
+Nmap scan report for SYN1ZT3R (192.168.16.10)
+Host is up (0.055s latency).
+MAC Address: 54:99:63:AF:67:23 (Apple)
+Nmap scan report for SYNIZTER-2 (192.168.16.7)
+

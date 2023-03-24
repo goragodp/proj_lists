@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+".\objects\system_stm32l1xx.o"
+".\objects\startup_stm32l152xb.o"
+".\objects\stm32l1xx_hal.o"
+".\objects\stm32l1xx_hal_adc.o"
+".\objects\stm32l1xx_hal_adc_ex.o"
+".\objects\stm32l1xx_hal_comp.o"
+".\objects\stm32l1xx_hal_cortex.o"
+".\objects\stm32l1xx_hal_dma.o"
+".\objects\stm32l1xx_hal_gpio.o"
+".\objects\stm32l1xx_hal_i2c.o"
+".\objects\stm32l1xx_hal_pwr.o"
+".\objects\stm32l1xx_hal_pwr_ex.o"
+".\objects\stm32l1xx_hal_rcc.o"
+".\objects\stm32l1xx_hal_spi.o"
+".\objects\stm32l1xx_hal_tim.o"
+".\objects\stm32l1xx_hal_uart.o"
+".\objects\stm32l1xx_hal_usart.o"
+".\objects\stm32l1xx_hal_dac.o"
+".\objects\stm32l1xx_hal_dac_ex.o"
+".\objects\stm32l1xx_hal_tim_ex.o"
+".\objects\stm32l1xx_hal_spi_ex.o"
+".\objects\ex8-spi-polling_master.o"
+".\objects\stm32l1xx_hal_msp.o"
+".\objects\stm32l1xx_it.o"
+--ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\STM32L152-TRAINING.map" -o .\Objects\STM32L152-TRAINING.axf
